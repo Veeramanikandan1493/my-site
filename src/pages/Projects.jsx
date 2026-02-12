@@ -1,47 +1,29 @@
 import Section from "../ui/Section.jsx"
 import ProjectCard from "../ui/ProjectCard.jsx"
-
-const PROJECTS = [
-    {
-        title: "SmartPremium",
-        desc: "Predict insurance costs using ML. End-to-end pipeline + Streamlit deployment.",
-        tags: ["Python", "sklearn", "Streamlit"],
-        links: {
-            github: "https://github.com/veeramanikandan1493",
-            demo: ""
-        }
-    },
-    {
-        title: "Customer Conversion Analysis (Clickstream)",
-        desc: "Preprocessing, EDA, feature engineering, and classification/clustering for conversion insights.",
-        tags: ["Python", "EDA", "Classification"],
-        links: {
-            github: "https://github.com/veeramanikandan1493",
-            demo: ""
-        }
-    },
-    {
-        title: "Grails → FastAPI Migration Planning",
-        desc: "Guided gradual migration from legacy Grails monolith to modular FastAPI services.",
-        tags: ["FastAPI", "Architecture", "MySQL"],
-        links: {
-            github: "",
-            demo: ""
-        }
-    }
-]
+import profileData from "../data/profile.json"
 
 export default function Projects() {
+    const {projects} = profileData;
+
     return (
         <div className="stack">
             <Section title="Projects">
                 <p className="p dim">
-                    A few things I’ve built / worked on. Add real GitHub/demo links when you’re ready.
+                    A selection of key projects I've led and contributed to throughout my career.
                 </p>
 
                 <div className="grid">
-                    {PROJECTS.map((p) => (
-                        <ProjectCard key={p.title} {...p} />
+                    {projects.map((project, index) => (
+                        <ProjectCard
+                            key={index}
+                            title={project.title}
+                            desc={project.description}
+                            tags={project.technologies}
+                            links={{
+                                github: project.link || null,
+                                demo: project.demo || null
+                            }}
+                        />
                     ))}
                 </div>
             </Section>

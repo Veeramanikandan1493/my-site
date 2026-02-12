@@ -1,0 +1,281 @@
+{
+  "personal": {
+    "name": "Veeramanikandan Shanmugasundaram",
+    "title": "Full Stack Technical Lead (Python)",
+    "location": "Chennai, India",
+    "email_hide": "veeramanikandan1493@gmail.com",
+    "phone_hide": "+91-XXXXXXXXXX",
+    "summary": "Python professional with 10+ years in IT, including 8+ years specializing in Python development. Experienced in leading end-to-end development of scalable, high-performance web applications, from backend services to frontend interfaces. Skilled in leveraging Python frameworks and modern tools to deliver robust solutions across industries including healthcare and business automation.",
+    "avatar": "V"
+  },
+  "home": {
+    "headline": "About",
+    "description": "Full Stack Technical Lead with 10+ years in Python development. I lead end-to-end development of scalable web applications, from backend services to frontend interfaces, specializing in healthcare and business automation solutions.",
+    "leadership": {
+      "title": "Leadership & Management",
+      "items": [
+        "Team management: Leading cross-functional development teams",
+        "SDLC: Full software development lifecycle management",
+        "Architecture design: Scalable system design and planning"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Feel free to reach out for collaboration, opportunities, or discussions about Python development, healthcare solutions, or technical leadership.",
+    "methods": [
+      {
+        "type": "github",
+        "title": "GitHub",
+        "value": "Veeramanikandan1493",
+        "href": "https://github.com/veeramanikandan1493"
+      },
+      {
+        "type": "linkedin",
+        "title": "LinkedIn",
+        "value": "Veeramanikandan Shanmugasundaram",
+        "href": "https://www.linkedin.com/in/veeramanikandan-shanmugasundaram/"
+      }
+    ]
+  },
+  "social": [
+    {
+      "type": "github",
+      "title": "GitHub",
+      "href": "https://github.com/veeramanikandan1493"
+    },
+    {
+      "type": "linkedin",
+      "title": "LinkedIn",
+      "href": "https://www.linkedin.com/in/veeramanikandan-shanmugasundaram/"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Technical Architect",
+      "company": "Hexaware Technologies",
+      "location": "Chennai, India",
+      "period": "05/2025 – Present",
+      "description": null,
+      "achievements": [
+        "Led migration of Talend ETL workflows to Python, improving performance and reducing licensing costs",
+        "Architected microservices for healthcare data processing and analytics"
+      ]
+    },
+    {
+      "title": "Senior Product Engineer Lead",
+      "company": "ZANEC",
+      "location": "Chennai, India",
+      "period": "09/2020 – 05/2025",
+      "description": "Providing innovative healthcare solutions. Led the team in implementing a healthcare platform product leveraging the PaaS model using Python FastAPI. Played a key role in the SDLC, collaborating with architects, design and testing teams to deliver scalable software.",
+      "achievements": [
+        "Led healthcare products like CirrhoCare, AlcoChange, and DryJanuary",
+        "Contributed to migrating services to CI/CD pipelines and implementing Dockerization",
+        "Focused on patient safety, engagement solutions, and behavioral health monitoring"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Ardhika Software Technologies",
+      "location": "Chennai, India",
+      "period": "02/2016 – 09/2020",
+      "description": "Offering SaaS solutions and project recovery services. Contributed to the development of an enterprise solution for CCKN-IA and led the team in implementing an e-commerce platform for an organic store product.",
+      "achievements": [
+        "Enhanced code efficiency by establishing rigorous code review practices",
+        "Improved software efficiency by troubleshooting and resolving coding issues",
+        "Collaborated with cross-functional teams to deliver high-quality products on tight deadlines"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "CyberLiver 2.0 Platform",
+      "period": "09/2020 – Present",
+      "location": "Chennai, India",
+      "description": "Created and implemented Prescription Digital Therapeutics aimed at halting or reversing disease progression, while offering targeted management strategies for patients in advanced stages.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "NumPy",
+        "Pandas",
+        "MySQL",
+        "Neo4j",
+        "Firebase",
+        "AWS",
+        "Docker",
+        "Bitbucket CI/CD"
+      ],
+      "achievements": [
+        "Focused on improving clinical outcomes and enhancing patient care",
+        "Managed both early and late-stage patient cohorts"
+      ]
+    },
+    {
+      "title": "iCoraLv2",
+      "period": "05/2018 – 09/2020",
+      "location": "Chennai, India",
+      "description": "Container leasing management solution optimized to handle leasing operations of hundreds of thousands of containers. Includes comprehensive lease management module and covers operations from procurement to sale of containers.",
+      "technologies": [
+        "Python",
+        "Django",
+        "Oracle",
+        "Firebase",
+        "AWS"
+      ],
+      "achievements": [
+        "Web-based solution deployed centrally and accessible by offices worldwide",
+        "Handles small/medium/large-scale container leasing operations"
+      ]
+    },
+    {
+      "title": "OurFarmer.in",
+      "period": "01/2017 – 04/2018",
+      "location": "Chennai, India",
+      "description": "Online platform for organic farmers to sell products directly to consumers. Focused on sales and inventory management with comprehensive features for product listing, stock tracking, and order management.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "AngularJS",
+        "Bootstrap 3",
+        "PostgreSQL",
+        "Firebase",
+        "AWS"
+      ],
+      "achievements": [
+        "Features: product listing, stock tracking, order tracking, sales trends",
+        "Secure payment gateway and dashboard for products and sales"
+      ]
+    },
+    {
+      "title": "CCKN-IA – Integrated Agricultural Management System",
+      "period": "02/2016 – 03/2017",
+      "location": "Chennai, India",
+      "description": "Centralized Knowledge and Knowledge Network – Integrated Agriculture project. Developed a comprehensive agricultural management system to streamline agricultural processes.",
+      "technologies": [
+        "Grails",
+        "Java",
+        "AngularJS",
+        "Bootstrap 3",
+        "MySQL",
+        "Firebase",
+        "AWS"
+      ],
+      "achievements": [
+        "Streamlined agricultural processes including crop management and sales tracking",
+        "Centralized knowledge management for agricultural operations"
+      ]
+    }
+  ],
+  "skills": {
+    "programming": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Flask",
+      "FastAPI",
+      "Streamlit",
+      "SQL",
+      "Java",
+      "Grails"
+    ],
+    "databases": [
+      "MySQL",
+      "Oracle",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "cloud_devops": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS S3",
+      "Amazon CloudWatch",
+      "Bitbucket CI/CD Pipelines",
+      "Docker"
+    ],
+    "other": [
+      "Firebase Cloud Messaging",
+      "Firebase Firestore",
+      "Firebase Realtime DB"
+    ],
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem Solving",
+      "Team Management",
+      "Strategic Planning"
+    ],
+    "languages": [
+      "English (Professional)",
+      "Tamil (Native)",
+      "Hindi (Basic)"
+    ]
+  },
+  "education": {
+    "degree": "BE: Computer Science & Engineering",
+    "university": "University College of Engineering Tindivanam (Anna University)",
+    "location": "Villupuram, India",
+    "period": "06/2010 – 04/2015"
+  },
+  "achievements": [
+    "Liver Care Platform: Developed a clinical platform that allows clinicians to manage cirrhosis and prevent alcohol relapse, improving patient outcomes",
+    "Migration and Upgrade: Led migration and upgrade of a legacy Python and MySQL platform, reducing AWS infrastructure costs by $45K/year",
+    "Organic e-commerce: Scaled an organic e-commerce platform, boosting engagement and sales"
+  ],
+  "strengths": [
+    "Quick Learner",
+    "Strong work ethic",
+    "Adaptability",
+    "Leadership",
+    "Problem-Solving"
+  ],
+  "portfolio_hide": [
+    {
+      "title": "Technical Blog",
+      "url": "https://blog.example.com",
+      "type": "blog",
+      "description": "Articles on Python development, cloud architecture, and ML best practices"
+    },
+    {
+      "title": "Open Source Contributions",
+      "url": "https://github.com/veeramanikandan1493",
+      "type": "github",
+      "description": "Active contributor to open source projects and community initiatives"
+    }
+  ],
+  "testimonials_hide": [
+    {
+      "author": "Senior Manager",
+      "company": "ZANEC",
+      "text": "Excellent technical leadership and ability to deliver complex healthcare solutions under tight deadlines. Strong problem-solving skills and team collaboration.",
+      "date": "2024"
+    }
+  ],
+  "certifications_hide": [
+    {
+      "name": "BRISK Information Security Expert (BISE)",
+      "issuer": "BRISK Information Security",
+      "date": "2024/03",
+      "credential_id": "BISE-2024-XXXX"
+    }
+  ],
+  "training": [
+    {
+      "title": "Artificial Intelligence & Machine Learning",
+      "period": "07/2025 – 2025/06",
+      "status": "ongoing"
+    },
+    {
+      "title": "BRISK Information Security Expert (BISE)",
+      "period": "2013/03 – 2024/03"
+    },
+    {
+      "title": "Advanced Java",
+      "period": "2012/12 – 2013/03"
+    },
+    {
+      "title": "Diploma in Computer Applications (DCA)",
+      "period": "2008/05 – 2009/01"
+    }
+  ]
+}
